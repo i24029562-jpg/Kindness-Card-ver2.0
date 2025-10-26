@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>善意语录卡 | Words Can Heal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💬 说一句善意的话</h1>
+    <p>你的话，可能是别人今天唯一的温暖。</p>
+    
+    <input id="inputText" type="text" placeholder="输入你的善意语录..." maxlength="60">
+    <div class="buttons">
+      <button onclick="generateCard()">生成语录卡</button>
+      <button onclick="randomQuote()">随机一句</button>
+      <button onclick="downloadCard()">下载语录卡</button>
+    </div>
+
+    <div class="card" id="card">
+      <p id="cardText">温柔是一种力量 💖</p>
+      <span>#WordsCanHeal</span>
+    </div>
+  </div>
+
+  <footer>
+    <p>反欺凌公益活动 · <b>Words Can Heal</b></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
